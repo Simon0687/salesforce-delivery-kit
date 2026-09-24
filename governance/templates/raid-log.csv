@@ -1,0 +1,5 @@
+ID;Type (R/A/I/D);Titre;Description;Date d'ouverture;Probabilité (1-4);Impact (1-4);Criticité (P x I);Réponse / décision;Responsable;Échéance;Statut;Date de clôture;Instance
+R-001;R;Retard de disponibilité des key users;Les key users ne sont pas disponibles pour les ateliers et la recette;AAAA-MM-JJ;3;3;9;Planifier les créneaux dès le lancement, valider la disponibilité avec les managers;Chef de projet;AAAA-MM-JJ;Ouvert;;COPROJ
+R-002;R;Qualité des données sources;Doublons et données incomplètes dans le système source;AAAA-MM-JJ;3;4;12;Audit de qualité en cadrage, nettoyage avant reprise;Data owner;AAAA-MM-JJ;Ouvert;;COPROJ
+R-003;R;Release Salesforce proche du go-live;Une release majeure tombe à moins de 2 semaines du go-live;AAAA-MM-JJ;2;3;6;Tests de non-régression en sandbox preview, ajustement de la date;Release manager;AAAA-MM-JJ;Ouvert;;Design Authority
+D-001;D;Outil DevOps retenu;Choix de l'outil de déploiement;AAAA-MM-JJ;;;;…;Architecte;;Clos;AAAA-MM-JJ;Design Authority
