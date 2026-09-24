@@ -41,6 +41,8 @@
 | 2 | COPROJ / Design Authority | 1 semaine | Choix technique, conflit de ressources, dérive < 10 % |
 | 3 | COPIL / Sponsor | Prochain COPIL ou COPIL exceptionnel | Changement de périmètre, dérive budget/planning > 10 %, risque go-live |
 
+Les risques sont escaladés selon leur criticité (P × I) : voir [Gestion des risques](10-gestion-risques.md#4-seuils-de-criticité-et-escalade).
+
 ## 4. Matrice RACI
 
 R = Réalise · A = Approuve (un seul par ligne) · C = Consulté · I = Informé
@@ -62,5 +64,7 @@ R = Réalise · A = Approuve (un seul par ligne) · C = Consulté · I = Inform�
 | Go / No-Go | A | R | C | C | C | I | C | C | C |
 | Formation et communication | C | A | C | R | I | C | I | C | I |
 | Changement de périmètre | A | R | C | I | C | I | I | I | I |
+| Tenue du registre RAID | I | A/R | C | C | C | C | C | I | I |
+| Acceptation d'un risque critique | A | R | C | I | C | I | I | I | C |
 | Conformité RGPD | I | C | C | I | C | R | I | C | A |
 | Gestion des accès utilisateurs | I | I | C | I | C | I | I | A/R | C |

@@ -7,7 +7,7 @@ Kit réutilisable pour cadrer la gouvernance d'un projet Salesforce (build, RUN 
 1. Copier le dossier `governance/` dans le dépôt ou l'espace documentaire du nouveau projet.
 2. Remplacer les variables `{{...}}` (liste ci-dessous) — une recherche globale sur `{{` permet de n'en oublier aucune.
 3. Supprimer les sections non pertinentes (ex. Shield, intégrations) plutôt que de les laisser vides.
-4. Faire valider les documents 01 à 03 en COPIL de lancement ; les autres sont validés par la Design Authority.
+4. Faire valider les documents 01 à 03 et 10 en COPIL de lancement ; les autres sont validés par l'instance indiquée dans le tableau ci-dessous.
 
 | Variable | Exemple |
 |---|---|
@@ -29,6 +29,7 @@ Paramètres par domaine :
 | Standards | `{{PREFIXE}}`, `{{TRIGGER_FRAMEWORK}}` |
 | Release | `{{DUREE_SPRINT}}` (2-3), `{{FENETRE_MEP}}`, `{{AUTRES_GELS}}`, `{{VERSION}}` |
 | Seuils | `{{SEUIL_CR}}` (5 j/h), `{{SEUIL_VOLUMETRIE}}` (1 M), `{{SEUIL_P2}}` (3), `{{SEUIL_REJET}}` (1), `{{SEUIL_STOCKAGE}}` (80), `{{SCORE_HEALTH_CHECK}}` (80) |
+| Risques | `{{PROVISION_RISQUES}}` (10, en % du budget) |
 | RUN | `{{DUREE_HYPERCARE}}` (4), `{{SEUIL_P2_HYPERCARE}}` (5), `{{SLA_P1_PEC}}` (1 h), `{{SLA_P1_RES}}` (4 h) |
 
 ## Contenu
@@ -44,6 +45,7 @@ Paramètres par domaine :
 | 07 | [Qualité & tests](07-qualite-tests.md) | DoR/DoD, stratégie de test, recette | PO + QA |
 | 08 | [Sécurité, accès & données](08-securite-donnees.md) | Modèle d'accès, RGPD, qualité et migration des données | Design Authority + RSSI/DPO |
 | 09 | [RUN & amélioration continue](09-run.md) | Support, dette technique, releases Salesforce | COPIL |
+| 10 | [Gestion des risques](10-gestion-risques.md) | Processus, échelles, escalade, provision, catalogue de risques Salesforce | COPIL |
 
 ### Modèles (`templates/`)
 
@@ -59,5 +61,5 @@ Paramètres par domaine :
 1. **Standard d'abord** : fonctionnalité native > configuration > déclaratif (Flow) > code. Tout écart est justifié par un ADR.
 2. **Une seule source de vérité** : les métadonnées vivent dans Git ; aucune modification directe en production.
 3. **Sécurité par défaut** : moindre privilège, accès via Permission Sets, revue d'accès trimestrielle.
-4. **Décisions tracées** : toute décision structurante est inscrite au registre RAID et, si technique, dans un ADR.
+4. **Décisions et risques tracés** : toute décision structurante et tout risque sont inscrits au registre RAID (et dans un ADR si le sujet est technique) ; chaque risque a un responsable nommé.
 5. **Rythme Salesforce** : le planning intègre les 3 releases annuelles de la plateforme.

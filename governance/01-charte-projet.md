@@ -66,11 +66,15 @@ Méthode : _agile (sprints de N semaines) / hybride / cycle en V_.
 | Licences Salesforce et AppExchange | | |
 | Outillage (DevOps, sauvegarde, tests) | | |
 | Formation / conduite du changement | | |
-| Provision pour risques | | |
+| Provision pour risques ({{PROVISION_RISQUES}} %, cf. [10](10-gestion-risques.md#6-provision-pour-risques)) | | |
 
 ## 6. Risques majeurs initiaux
 
-Voir le [registre RAID](templates/raid-log.csv). Résumer ici les 3 à 5 risques principaux.
+Les 3 à 5 risques principaux issus de l'atelier d'identification ([gestion des risques](10-gestion-risques.md)), tenus à jour dans le [registre RAID](templates/raid-log.csv).
+
+| ID | Risque | Criticité (P × I) | Stratégie | Responsable |
+|---|---|---|---|---|
+| R-001 | | | | |
 
 ## 7. Validation
 

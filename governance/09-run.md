@@ -4,7 +4,7 @@
 
 - Durée : {{DUREE_HYPERCARE}} semaines après le go-live.
 - Équipe projet mobilisée, point quotidien de 15 min sur les incidents.
-- Critères de sortie : aucun incident P1 depuis 2 semaines, backlog d'incidents P2 < {{SEUIL_P2_HYPERCARE}}, documentation transférée, équipe RUN formée.
+- Critères de sortie : aucun incident P1 depuis 2 semaines, backlog d'incidents P2 < {{SEUIL_P2_HYPERCARE}}, documentation transférée, équipe RUN formée, risques résiduels transférés au registre RUN avec un responsable ([10](10-gestion-risques.md#8-revues-aux-jalons)).
 
 ## 2. Organisation du support
 

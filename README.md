@@ -5,4 +5,4 @@ Template for Salesforce projet delivery standards
 
 | Dossier | Description |
 |---|---|
-| [governance/](governance/) | Template de gouvernance de projet Salesforce : charte, RACI, Design Authority, standards de développement, release management, qualité, sécurité et données, RUN, et modèles (ADR, COPIL, change request, checklist MEP, RAID) |
+| [governance/](governance/) | Template de gouvernance de projet Salesforce : charte, RACI, Design Authority, standards de développement, release management, qualité, sécurité et données, RUN, gestion des risques, et modèles (ADR, COPIL, change request, checklist MEP, RAID) |

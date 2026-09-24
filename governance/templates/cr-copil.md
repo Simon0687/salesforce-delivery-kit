@@ -23,9 +23,11 @@
 
 ## 4. Risques et points d'attention (top 5 du RAID)
 
-| ID | Risque / problème | Criticité | Plan d'action | Responsable | Échéance |
-|---|---|---|---|---|---|
-| | | | | | |
+| ID | Risque / problème | Criticité | Tendance | Plan d'action | Responsable | Échéance |
+|---|---|---|---|---|---|---|
+| | | | ↗ → ↘ | | | |
+
+Risques ouverts : 🔴 … / 🟠 … / 🟢 … · Réalisés depuis le dernier COPIL : … · Provision consommée : … / …
 
 ## 5. Décisions demandées
 

@@ -28,5 +28,5 @@ _Option retenue et justification._
 ## Conséquences
 
 - Impacts : données, sécurité, performance, licences, maintenance
-- Dette ou risque accepté :
+- Dette ou risque accepté (inscrit au RAID, ID R-…) :
 - Actions de suivi :

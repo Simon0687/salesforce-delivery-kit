@@ -12,6 +12,7 @@ Date de MEP : AAAA-MM-JJ · Release manager : … · Fenêtre : …
 - [ ] Impacts sur les intégrations identifiés, équipes tierces prévenues
 - [ ] Pas de conflit avec une période de gel ni une release Salesforce
 - [ ] Plan de retour arrière défini
+- [ ] Risques de la release revus ; aucun risque critique ouvert sans plan de contingence ni acceptation du COPIL
 
 ## J-1
 
